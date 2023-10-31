@@ -1,0 +1,117 @@
+body{
+    background-color: white;
+}
+
+#pilatusPage{
+  display: none;
+}
+#islandPage{
+  display: none;
+}
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: block; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+
+  #page {
+    position:absolute;
+    display: block;
+    top:5%;
+    left:10%;
+    bottom: 5%;
+    right: 10%;
+    background-color:#368287;
+    text-align:center;
+    overflow: scroll;
+  }
+  
+  
+
+  #header{
+    margin-top:0;
+   margin-bottom: 50px;
+    
+    text-align: center;
+    
+    
+  }
+  h1{
+    margin:auto;
+    padding:20px;
+    color: white;
+    background-color: #353F40;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+  }
+ 
+  img{
+    position:relative;
+    margin:auto;
+    min-height:100px;
+    max-height:300px;
+    width:auto;
+    background-color:#353F40;
+    border-style: solid;
+    border-color:white;
+  }
+  #text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }
+
+ 
+
+/* Hide the images by default */
+#mySlides{
+  display: none;
+ 
+    position:relative;
+   margin:auto;
+    
+    background-color: white;
+    text-align:center;
+}
+
+#mySlidesBalloon{
+  display: none;
+ 
+    position:relative;
+   margin:auto;
+    
+    background-color: white;
+    text-align:center;
+}
+
+p{
+color:white;
+margin-left:200px;
+margin-right:200px;
+font-size:20px;
+padding:20px;
+background-color:#353F40;
+font-family: 'Raleway', sans-serif;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
