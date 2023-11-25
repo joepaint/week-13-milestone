@@ -57,7 +57,7 @@ const boat = new THREE.Group();
 
 //boat
 
-loader.load('./assets/steamboat.glb', function(glb) {
+loader.load('../assets/steamboat.glb', function(glb) {
     const steamboat = glb.scene;
 	
     
@@ -87,7 +87,7 @@ loader.load('./assets/dock.glb', function(glb){
 
 const dragonPos = new THREE.Vector3(-6,.7,-3);
 const dragonGroup = new THREE.Group();
-loader.load('./assets/dragon.glb', function(glb){
+loader.load('../assets/dragon.glb', function(glb){
 	const dragon = glb.scene;
 	
 	dragon.scale.set(0.3,0.3,0.3);
@@ -103,7 +103,7 @@ scene.add(dragonGroup);
 const islandPos = new THREE.Vector3(5,-0.05,-1);
 const islandLookAt = new THREE.Vector3(islandPos.x, islandPos.y+.7, islandPos.z);
 
-loader.load('./assets/volcano.glb', function(glb){
+loader.load('../assets/volcano.glb', function(glb){
 	const island = glb.scene;
 	
 	island.scale.set(0.1,0.1,0.1);
@@ -114,7 +114,7 @@ loader.load('./assets/volcano.glb', function(glb){
 });
 
 const fishGroup = new THREE.Group();
-loader.load('./assets/fish.glb', function(glb){
+loader.load('../assets/fish.glb', function(glb){
 	const fish = glb.scene;
 	
 	
@@ -126,7 +126,7 @@ loader.load('./assets/fish.glb', function(glb){
 scene.add(fishGroup);
 
 const birdGroup = new THREE.Group();
-loader.load('./assets/birds.glb', function(glb){
+loader.load('../assets/birds.glb', function(glb){
 	const birds = glb.scene;
 	
 	birds.scale.set(0.3,0.3,0.3);
